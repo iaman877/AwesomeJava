@@ -3,7 +3,7 @@
 
 Following are steps to install Java in Windows
 * Go to link. Click on Download JDK. For java latest version.
-* [Open Link] (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads2133151.html)
+* [Open Link] (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * According to your system, configuration (64 bit/32 bit) /Operating System (Windows/Linux), download  JDK. 
 * For installation - Double click on exe file -> click next -> next ->………->Finish.
 * Finally, we have completed the installation of jdk. 
