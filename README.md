@@ -436,5 +436,45 @@ class Reserveword
  
 Automatically they are come in blue color. 
 
+## Variables and Data Types in Java
+
+Variable is a name of memory location. There are three types of variables in java: local, instance and static. 
+
+Example:  
+* int a=10; 
+* int a=10.5;
+* boolean b=0; 
+  
+ >valid in C but not in java. 
+
+Valid/Invalid?? 
+* byte b=10; 
+* byte b =127;
+* byte b=128;
+* byte b= 10.5; 
+* byte b=true;  //Incompatible type,found boolean, required byte. 
+ 
+Note: In java, every variable and expression has some type, every assignment should be checked by compiler for type compatibility, because of this reason Java language is Strongly-Typed programming language. 
+ 
+ 
+Data Types in Java 
+Data types represent the different values to be stored in the variable. In java, there are two types of data types: 
+*	Primitive data types 
+*	Non-primitive data types 
+
+ 
+## Operators in java 
+
+Operator in java is a symbol that is used to perform operations. For example: +, -, *, / etc. 
+There are many types of operators in java which are given below: 
+*	Unary Operator,  
+*	Arithmetic Operator,  
+*	shift Operator,  
+*	Relational Operator,  
+*	Bitwise Operator,  
+*	Logical Operator, 
+* 	Ternary Operator and 
+* 	Assignment Operator. 
+ 
 
 
