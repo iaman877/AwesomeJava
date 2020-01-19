@@ -145,3 +145,14 @@ JDK is an implementation of any one of the below given Java Platforms released b
 * Micro Edition Java Platform 
 
 
+The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of a Java Application. 
+
+
+Example: 
+JDK 1.5,JDK 1.6 ,JDk 1.8 
+
+
+Note: The JRE is contained within the JDK (i.e., if you just download the JDK you will be able to create and run java programs.).  
+
+
+
