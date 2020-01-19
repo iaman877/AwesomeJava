@@ -153,6 +153,147 @@ JDK 1.5,JDK 1.6 ,JDk 1.8
 
 
 Note: The JRE is contained within the JDK (i.e., if you just download the JDK you will be able to create and run java programs.).  
+## Identifiers in Java 
 
+A name in Java Program is called identifier, which can be used for identification purpose. It can be method name, class name, variable name, label name. 
+ 
+ 
+How many identifiers are present in the following program?  
+```
+class Student 
+  {  
+      public static void main(String args[]) 
+         { 
+            int x=10; 
+         } 
+  } 
+```
+Answer:  5 (Student,main,String ,args,x)
+
+### Rules for Defining Java Identifiers:  
+
+Following are the allowed characters for identifiers in java:
+* A to Z   a to z 0 to 9 
+* $ 
+* _ (underscore) 
+ 
+By mistake if you are using any other character, you will get compile time error. 
+ 
+* even_number  : :       valid 
+* even#        : :       invalid 
+* even2        : :       valid 
+* 2even        : :       invalid-  identifiers cannot start with digits. 
+ 
+_Note_: 
+* Java identifiers are case sensitive.
+* Java language itself is treated as case sensitive programming language. 
+
+```
+class Demo 
+{ 
+  public static void main(String args[]) 
+  { 
+    int number =10;   //Valid
+    int Number =10;  // Valid
+    int NUMBER =10; //Valid
+    int number=20;  //Invalid 
+  } 
+} 
+```
+ 
+Note: We can differentiate with respect to case. 
+
+_How many characters are allowed in java for identifiers?_ 
+* 32 
+* 64 
+* 128 
+* 256 
+* 512 
+* No limit  
+ 
+ ```
+ class Demo 
+{ 
+     public static void main(String args[]) 
+        {        
+           int _x=5;  	
+           int x_=6; 
+           int $=3;  	
+           int 123x=30;   
+           int #=5; 
+           int num=20; 
+           int Num=30; 
+           int NUM=40;  
+           int num=50;  
+            int x=10; 
+            int xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=20; 
+            System.out.println(xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx); 
+       }
+} 
+```
+ 
+Note : There is no length limit for java identifiers, Even you can take  100000000000000000000 length or any length, but it is not recommended to take too lengthy identifiers.  
+
+Can we use reserve word for java identifiers  ???? 
+ 
+ ```
+class ReserveW 
+{ 
+   public static void main(String args[]) 
+     { 
+         int for =10; 
+         int if =20; 
+         int class =50; 
+         int cat =70; 
+     }
+} 
+``` 
+
+>Note: We cannot use reserve words as identifiers. 
+ 
+Can you tell what is output, we are going to get??? 
+
+``` 
+class Demo1 
+{ 
+     public static void main(String args[]) 
+    { 
+ 	   int String =100; 
+       int Runnable=200; 
+       System.out.println(String); 
+       System.out.println(Runnable); 
+     }
+}  
+```
+output:  100 
+         200 
+         
+         
+Question : Valid or not???? 
+ 
+Answer : 100%  valid 
+These are the predefined class or Interface of Java. 
+ 
+ 
+_Note_:  
+All predefined java class names and interface names, we can use as java identifiers. 
+Even though it is valid but it is not a good programming practice. 
+It reduces readability and creates confusion. 
+ 
+ 
+Which are following valid/invalid  java Identifiers; 
+ 
+* total_num  : : valid 
+* total#     : : inv 
+* 123total   : : inv 
+* total123   : : valid 
+* ca$h       : : valid  
+* Integer    : : valid 
+* int        : : inv
+* Int        : : valid 
+* _$_$_$     : :  valid 
+* all@       : : inv 
+* Upes2020iot  : :  valid 
+ 	  
 
 
