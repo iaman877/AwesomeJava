@@ -51,7 +51,7 @@ Solution 2:  Setting Permanent Path:
 Go to My Computer properties  advanced tab  environment variables -> new tab of user/system variable -> write path in variable name -> write path of bin folder in variable value ->ok -> ok -> ok 
 '''
 
- Some Important keywords of java are :
+ ### Some Important terms of java :
 
 ``` class First 
       {
