@@ -50,6 +50,7 @@ Solution 2:  Setting Permanent Path:
 ''' 
 Go to My Computer properties  advanced tab  environment variables -> new tab of user/system variable -> write path in variable name -> write path of bin folder in variable value ->ok -> ok -> ok 
 '''
+
  Some Important keywords of java are :
 
 ``` class First 
@@ -61,8 +62,8 @@ Go to My Computer properties  advanced tab  environment variables -> new t
       }
 ```
 
-* public: main is called by operating system in C++ but by JVM in java, JVM can call main only when the public mode is given before main
-* static: Since JVM is calling main which is in class, so if we want to call main, an object of class is required to call main by JVM. So JVM escape from the burden of creating an object for the purpose of calling main(). 
-* void: indicate main(),won’t return anything to JVM. 
-* String args[]: Known as command line arguments, String is a built in class in java,String have every facility as for making and working on char. 
+* 'public': main is called by operating system in C++ but by JVM in java, JVM can call main only when the public mode is given before main
+* 'static': Since JVM is calling main which is in class, so if we want to call main, an object of class is required to call main by JVM. So JVM escape from the burden of creating an object for the purpose of calling main(). 
+* 'void': indicate main(),won’t return anything to JVM. 
+* 'String args[]': Known as command line arguments, String is a built in class in java,String have every facility as for making and working on char. 
 
