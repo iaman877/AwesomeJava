@@ -295,5 +295,135 @@ Which are following valid/invalid  java Identifiers;
 * all@       : : inv 
 * Upes2020iot  : :  valid 
  	  
+Reserved Word:
+
+
+In any language-normal language or programming language, some words are reserve word  like English apple students run sleep—crores of word. 
+ 
+In java some words are reserve words to present some meaning or functionality, such type or words are called reserve words. 
+How many reserve word are there in java 
+* 40 
+* 45 
+* 50 
+* 53 
+* 55 
+* 63 
+ 
+Answer: 53 
+	 
+ 
+50  (keyword)+ 3(reserve literals)  true,false and null 
+ 
+50 keyword= used keyword 48(if else…..)+unused keyword 2(goto,const) 
+ 
+ Keywords for data types: 8 
+1.	byte  
+2.	short 3. int 
+4.	long  
+5.	float 
+6.	double 
+7.	boolean 
+8.	char 
+ 
+Keywords for flow control: 11 
+9.	if  
+10.	else 
+11.	switch 
+12.	case  
+13.	default 
+14.	while 
+15.	do  
+16.	break 
+17.	continue 
+18.	return 
+19.	for 
+20.	enum 
+ 
+Keywords for modifiers: 11  default (already included) 
+ 
+21.	public 
+22.	private 
+23.	protected 
+24.	static 
+25.	final 
+26.	abstract 
+27.	synchronized 
+28.	native 
+29.	strictfp-    1.2 version  
+30.	transient 
+31.	volatile 
+ 
+Keywords for exception handling  6 
+32.	try 
+33.	catch 
+34.	finally 
+35.	throw 
+36.	throws 
+37.	assert      1.4 version 
+ 
+ 
+Class related keywords: 6 
+38.	class 
+39.	interface 
+40.	extends 
+41.	implements 
+42.	package 
+43.	import 
+ 
+Object related keywords: 4 
+44.	new 
+45.	instanceof 
+46.	super 
+47.	this 
+
+Return type keyword:1 
+
+48.	void  (default return type in java- void, default return type in c language-int) Unused keyword:2 
+49.	goto-    uses of goto created several problems in old languages, hence SUN people banned this keyword in java. 
+50.	const- use final instead of const 
+ 
+Note: goto and const are unused keyword and if you are trying to use we will get compile time error. 
+ 
+Reserved word -literals:3 
+51.	true: value for Boolean data type 
+52.	false : value for Boolean data type 
+53.	null   default value of object reference 
+ 
+ 
+Note: 
+* All 53-reserve words in java contains only lower case alphabet symbols. 
+* In java we have only new keyword, and there is no delete keyword because destruction of useless objects is the responsibility of garbage collector. 
+ 
+enum :1 –keeps a wording in which version this one came.?? 1.5 version when we  should go  enum: if you want to define group of named constant  
+ 
+ ```
+enum Month 
+{ 
+  JAN,FEB…..DEC; 
+} 
+```
+ 
+Which are the following list contains java reserve words: 
+* new, ~~delete~~ goto , 
+* ~~constant~~ break,
+* continue,
+* return,
+* exit final,finally,
+* ~~finalize~~-method throw,
+* throws,~~thrown~~ 
+* notify, notifyall
+* implements, 
+* extends, ~~imports~~ ~~sizeof~~, 
+* instanceof-not in java istanceif,
+* ~~strictFp~~ byte,short,
+* ~~Int~~ ~~none of these~~-
+* ~~true~~ 
+ 
+ 
+ 
+class Reserveword 
+ 
+Automatically they are come in blue color. 
+
 
 
