@@ -476,7 +476,7 @@ There are many types of operators in java which are given below:
 * 	Ternary Operator and 
 * 	Assignment Operator. 
 
-OOPs (Object-Oriented Programming System) 
+### OOPs (Object-Oriented Programming System) 
  
 *	Object means a real-world entity such as a pen, chair, table, computer, watch, etc.  
 *	Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.  
