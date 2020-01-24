@@ -475,6 +475,191 @@ There are many types of operators in java which are given below:
 *	Logical Operator, 
 * 	Ternary Operator and 
 * 	Assignment Operator. 
+
+OOPs (Object-Oriented Programming System) 
  
+*	Object means a real-world entity such as a pen, chair, table, computer, watch, etc.  
+*	Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.  
+*	The main aim of object-oriented programming is to implement real-world entities for example object, classes, abstraction, inheritance, polymorphism, etc. 
+*	It simplifies the software development and maintenance.  
+ 
+Note: 
+*	Simula is considered the first object-oriented programming language. The programming paradigm where everything is represented as an object is known as a truly object-oriented programming language. 
+*	Smalltalk is considered the first truly object-oriented programming language.  The popular object-oriented languages are Java, C#, PHP, Python, C++, etc. 
+ 
+ 
+Object: 
+
+An object is an instance of a class. A class is a template or blueprint from which objects are created. So, an object is the instance(result) of a class. 
+Object Definitions: 
+*	An object is a real-world entity.
+* 	An object is a runtime entity. 
+* 	The object is an entity, which has state and behavior. 
+*	The object is an instance of a class. 
+*	Object is the basic unit of object-oriented programming.  
+* 	An object is a variable of type class. o 	Stores data and class methods. 
+*	Example: Alto, Zen Estilo, Swift etc are the objects of class Car. 
+ 
+ 
+An entity that has state and behavior is known as an object e.g. chair, bike, marker, pen, table, car etc. It can be physical or logical (tangible and intangible). The example of an intangible object is the banking system. 
+ 
+  
+An object has three characteristics: 
+*	State: represents the data (value) of an object. o Behavior: represents the behavior (functionality) of an object such as deposit, withdraw, etc. 
+*	Identity: An object identity is typically implemented via a unique ID. The value of the ID is not visible to the external user. However, it is used internally by the JVM to identify each object uniquely. 
+  
+Creation of Objects:  
+*	Once the class is created, one or more objects can be created from the class as objects are instance of the class. 
+*	Objects are declared as:
+
+
+``` 
+     Syntax: class-name object-name= new class-name();  
+      Example:  Student S1=new Student(); 
+```
+      
+      
+The new	 keyword is used to allocate memory at runtime. All objects get memory in Heap memory 
+area. 
+ 
+Class: 
+*	Class is a collection of data members and member function. 
+*	Data, representing an object or "thing". 
+*	Operations on that data. 
+*	Class is a user defined data type. 
+*	Class implements encapsulation and abstraction. 
+*	Member data specifies the type of data to be stored. 
+*	Member function acts as a mediator between user and data. They manipulate data. 
+*	A class is a group of objects which have common properties.  
+*	It is a template or blueprint from which objects are created. It is a logical entity. It can't be physical. 
+ 
+A class in Java can contain: 
+*	Fields
+*	Methods 
+* 	Constructors 
+*	Blocks 
+*	Nested class and interface 
+ 
+Class Declaration/ Class prototyping:  
+*	A class is specified with a name after the keyword class.  
+*	The body of class begins with curly bracket ‘{‘ and is followed by the code containing the data members and functions. Then the class is closed with curly bracket ‘}’ and concluded with a semi-colon (;)- Optional. 
+*	There are different access specifiers for defining the data and functions present inside a class. 
+*	In Java the class can be declared as follows: 
+*	Syntax:  
+        >class classname  
+{ 
+list of data members;  constructors list of member function; etc.. 
+ } ; (optional) 
+ 	 
+ 
+Methods or Functions 
+*	A Method/function is a group of statements that performs any coherent task. 
+*	A function contains set of statements that are bundled within a set of curly brackets and is identified by a name called function name.  It can be classified into two categories: 
+*	Predefined or In-Built functions o User-defined function. 
+*	The following three things have to be done to use a function  
+*    Function Prototyping  Syntax:
+```
+Return type function name (list of formal arguments); 
+```
+
+*	Function Definition  Syntax: 
+```
+Return type function name (list of formal arguments) 
+{ 
+Set of statements; 
+} 
+```
+
+*	Function Calling  Syntax: 
+
+Object.function name (list of actual arguments); 
+ 
+* int addition(int x, int y) –takes something, returns something 
+* void addition(int x,int y)-  takes something returns nothing 
+* int addition( )- takes nothing returns something 
+* void addition() -  takes noting, return nothing  
+ 
+ 
+Access specifiers:  
+
+Access specifiers are used to identify access rights for the data and member functions of the class. There are four types of access specifiers in Java programming language: 
+* Private (Access within class)
+* protected (Access within class and derived class) 
+* Package (Access within directory)it is by default in Java o Public (Access from anywhere) 
+
+Java Program to illustrate how to define a class and fields. 
+
+```
+public class Demo {
+    int roll;
+    String name;
+    double marks;
+	public static void main(String[] args) {
+	   Demo d1 = new Demo();
+	   System.out.println(d1.roll);
+	   System.out.println(d1.name);
+	   System.out.println(d1.marks);
+
+	}
+}
+```
+ 
+Note: 
+* In real time development, we create classes and use it from another class. It is a better approach than previous one. Let's see a simple example, where we are having main() method in another class
+
+#### main outside the class 
+
+```
+class Demo1 {
+	int roll;
+	String name;
+	int marks;
+}
+ class DemoTest{
+	public static void main(String args[])
+	{
+		Demo1 d1 = new Demo1();
+		System.out.println(d1.roll);
+		System.out.println(d1.name);
+		System.out.println(d1.marks);
+	}
+}
+```
+
+
+There are 3 ways to initialize object in java. 
+ 
+1.	By reference variable 
+2.	By method 
+3.	By constructor 
+
+Initialize object by reference variable 
+
+* Initializing an object means storing data into the object. Let's see a simple example where we are going to initialize the object through a reference variable. 
+
+```
+import java.util.*;
+class Demo2{
+	int roll;
+	String name;
+	double marks;
+}
+class TestDemo2{
+	public static void main(String args[])
+	{
+		Demo2 d1 = new Demo2();
+		  d1.roll = 20;
+		  d1.marks = 97.675;
+		  d1.name = "Aman";
+		// System.out.println(roll)   // it will show error 
+		  System.out.println(d1.roll);
+		  System.out.println(d1.name);
+		  System.out.println(d1.marks);
+	}
+}
+
+```
+
+
 
 
