@@ -1,0 +1,46 @@
+Q1)  Can we overload the main method in java? Justify with example.
+Ans   Yes 
+
+'''
+import java.io.*; 
+public class Main 
+{ 
+	
+	public static void main(String[] args)
+	{ 
+		System.out.println("Hi i am from main"); 
+		Main.main("Aman"); 
+	} 
+	public static void main(String arg1)
+	{ 
+		System.out.println("Hi, " + arg1); 
+		Main.main("Dear rohan ","My fiend "); 
+	} 
+	public static void main(String arg1, String arg2)
+	{ 
+		System.out.println("Hi, " + arg1 + ", " + arg2); 
+	} 
+} 
+'''
+Q2) Can we override main method in java ?
+Ans NO , we cant override main method in java 
+
+'''
+class MainOverhiding1
+{
+	public static void main(Object args)
+	{
+		System.out.println("Fun2");
+    }
+}
+class Main extends MainOverhiding1
+{
+	public static void main(String args[])
+	{
+		System.out.println("Fun1");
+		Main s= new MainOverhiding2();
+		main(s);
+	}
+}
+''''
+> We wil get an error that "can not find a symbol"
