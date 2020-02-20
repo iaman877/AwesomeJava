@@ -996,11 +996,13 @@ public void m1(Object o)
   //c.m1(null); 
   } 
   } 
-   
+
  
   ```
  
+  ## package in java
  
+ ![WhatsApp Image 2020-02-20 at 1 03 03 PM](https://user-images.githubusercontent.com/49730521/74962749-871ccc00-5436-11ea-871c-125d05f4c71d.jpeg)
 
 
 
