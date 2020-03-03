@@ -34,4 +34,9 @@ If you are inserting any value in the wrong index, it would result
 int a[]=new int[5];
 2. a[10]=50; //ArrayIndexOutOfBoundsException
 ```
-
+There are 5 keywords used in java exception handling.
+1. try
+2. catch
+3. finally
+4. throw
+5. throws
