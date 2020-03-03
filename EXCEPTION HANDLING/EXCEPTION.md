@@ -40,3 +40,8 @@ There are 5 keywords used in java exception handling.
 3. finally
 4. throw
 5. throws
+
+## Java try block
+* Java try block is used to enclose the code that might throw an exception. It must be
+used within the method.
+* Java try block must be followed by either catch or finally block.
