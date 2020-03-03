@@ -73,3 +73,6 @@ Example 2:
 Output
 
 ![2](https://user-images.githubusercontent.com/49730521/75778697-4ef28300-5d7e-11ea-81ea-61ad37d5f29a.PNG)
+
+## Note 
+ At a time only one Exception is occurred and at a time only one catch block is executed
