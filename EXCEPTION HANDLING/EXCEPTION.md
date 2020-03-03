@@ -15,7 +15,7 @@ deriving class.
 If we divide any number by zero, there occurs an *ArithmeticException*.
 1. int a=50/0;    //ArithmeticException
 
-If we have null value in any variable, performing any operation by the variable occurs an * NullPointerException*.
+If we have null value in any variable, performing any operation by the variable occurs an *NullPointerException*.
 1. String s=null;
 2. System.out.println(s.length());    //NullPointerException
 
