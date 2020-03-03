@@ -74,7 +74,7 @@ Output
 
 ![2](https://user-images.githubusercontent.com/49730521/75778697-4ef28300-5d7e-11ea-81ea-61ad37d5f29a.PNG)
 
-## Note1
+## Note 1
 At a time only one Exception is occurred and at a time only one catch block is executed
 ## Note 2
 All catch blocks must be ordered from most specific to most general i.e. catch for ArithmeticException must come before catch for Exception.
