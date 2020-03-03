@@ -78,3 +78,6 @@ Output
 At a time only one Exception is occurred and at a time only one catch block is executed
 ## Note 2
 All catch blocks must be ordered from most specific to most general i.e. catch for ArithmeticException must come before catch for Exception.
+## Note 3
+finally block without try block [Wrong]
+Multiple finally block   [Wrong]
