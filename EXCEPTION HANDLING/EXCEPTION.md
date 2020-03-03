@@ -28,3 +28,10 @@ occur NumberFormatException.
 1. String s="abc";
 2. int i=Integer.parseInt(s);//NumberFormatException 
 ```
+If you are inserting any value in the wrong index, it would result
+*ArrayIndexOutOfBoundsException* as shown below:
+```
+int a[]=new int[5];
+2. a[10]=50; //ArrayIndexOutOfBoundsException
+```
+
