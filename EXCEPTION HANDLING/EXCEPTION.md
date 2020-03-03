@@ -61,4 +61,12 @@ Example 2:
 2. //code that may throw exception
 3. }finally{}
 ```
-
+### Program: Problem without Try Catch
+```
+1. public class Testtrycatch1{
+2. public static void main(String args[]){
+3. int data=50/0;//ArithmeticException
+4. System.out.println("rest of the code...");
+5. }
+6. }
+```
