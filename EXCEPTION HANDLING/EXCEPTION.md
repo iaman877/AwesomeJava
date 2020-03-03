@@ -49,3 +49,16 @@ used within the method.
 * Java catch block is used to handle the Exception. It must be used after the try block
 only.
 * You can use multiple catch block with a single try.
+Example 1:
+```
+1. try{
+2. //code that may throw exception
+3. }catch(Exception_class_Name ref){} 
+```
+Example 2:
+```
+1. try{
+2. //code that may throw exception
+3. }finally{}
+```
+
