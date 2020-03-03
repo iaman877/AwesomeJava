@@ -45,3 +45,7 @@ There are 5 keywords used in java exception handling.
 * Java try block is used to enclose the code that might throw an exception. It must be
 used within the method.
 * Java try block must be followed by either catch or finally block.
+## Java catch block
+* Java catch block is used to handle the Exception. It must be used after the try block
+only.
+* You can use multiple catch block with a single try.
