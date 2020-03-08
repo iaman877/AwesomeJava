@@ -41,3 +41,7 @@ When a blocked thread is unblocked, it goes to runnable state and not to running
 A thread becomes dead on two occasions.
 • If a thread completes its task, exit the running state.
 • run() method is aborted(due to exception etc.)
+## CREATION OF THREADS
+There are two ways to create a thread:
+1. By extending Thread class
+2. By implementing Runnable interface.
