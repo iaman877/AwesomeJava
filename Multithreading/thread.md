@@ -79,6 +79,8 @@ Commonly used Constructors of Thread class:
 start()
 {
    > Register this thread with thread scheduler.
+   
    > Perform other mandatory activity
+   
    > Invoke run() method.
 }
