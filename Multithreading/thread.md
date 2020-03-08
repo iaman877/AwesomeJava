@@ -19,3 +19,8 @@ context-switching between the threads takes less time than process.
 * It doesn't block the user because threads are independent and you can perform multiple operations at same time.
 *  You can perform many operations together so it saves time.
 * Threads are independent so it doesn't affect other threads if exception occur in a single thread.
+1) *New/Born*: When a thread is created, it is in new state, in this state thread will
+not be executed and not sharing time from processor.
+2) *Runnable/Ready*: When the start() method is called on the thread object, the
+thread is in runnable state. In this state the thread is executing and sharing time from
+processor.
