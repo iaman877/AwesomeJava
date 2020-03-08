@@ -45,3 +45,10 @@ A thread becomes dead on two occasions.
 There are two ways to create a thread:
 1. By extending Thread class
 2. By implementing Runnable interface.
+### 1. By extending Thread class:
+Thread class provide constructors and methods to create and perform operations on
+a thread. Thread class extends Object class and implements Runnable interface.
+Commonly used Constructors of Thread class:
+*  Thread()
+* Thread(String name)
+* Thread(Runnable r)
