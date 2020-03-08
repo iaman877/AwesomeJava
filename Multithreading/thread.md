@@ -75,3 +75,10 @@ Commonly used Constructors of Thread class:
 * *public void interrupt()*: interrupts the thread.
 * *public boolean isInterrupted()*: tests if the thread has been interrupted.
 * *public static boolean interrupted()*: tests if the current thread has been interrupted.
+#### Note: Internal Definition of start()
+start()
+{
+   > Register this thread with thread scheduler.
+   > Perform other mandatory activity
+   > Invoke run() method.
+}
