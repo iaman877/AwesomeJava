@@ -28,3 +28,5 @@ not be executed and not sharing time from processor.
 2) *Runnable/Ready*: When the start() method is called on the thread object, the
 thread is in runnable state. In this state the thread is executing and sharing time from
 processor.
+3) *Running*: If thread scheduler allocates processor to a thread it will go in Running
+state OR A thread currently being executed by the CPU is in running state
