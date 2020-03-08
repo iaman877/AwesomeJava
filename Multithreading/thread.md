@@ -19,6 +19,10 @@ context-switching between the threads takes less time than process.
 * It doesn't block the user because threads are independent and you can perform multiple operations at same time.
 *  You can perform many operations together so it saves time.
 * Threads are independent so it doesn't affect other threads if exception occur in a single thread.
+### Thread States or Life cycle of a Thread
+The life cycle of the thread in java is controlled by JVM. When any thread is created,
+it goes to different states before it completes its task and is dead. The different states
+are:
 1) *New/Born*: When a thread is created, it is in new state, in this state thread will
 not be executed and not sharing time from processor.
 2) *Runnable/Ready*: When the start() method is called on the thread object, the
