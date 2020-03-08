@@ -36,5 +36,8 @@ of the following conditions.
 * wait() or sleep() method is called
 * The thread perform I/O operation.
 
-When a blocked thread is unblocked, it goes to runnable state and not to running
-state
+When a blocked thread is unblocked, it goes to runnable state and not to running state
+5) *Terminated*: A thread is in terminated or dead state when its run() method exits.
+A thread becomes dead on two occasions.
+• If a thread completes its task, exit the running state.
+• run() method is aborted(due to exception etc.)
