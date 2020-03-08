@@ -30,3 +30,10 @@ thread is in runnable state. In this state the thread is executing and sharing t
 processor.
 3) *Running*: If thread scheduler allocates processor to a thread it will go in Running
 state OR A thread currently being executed by the CPU is in running state
+4) Non-Runnable (Blocked): This is the state when the thread is still alive, but is
+currently not eligible to run. A running thread may go to a blocked state due to any
+of the following conditions.
+• wait() or sleep() method is called
+• The thread perform I/O operation.
+When a blocked thread is unblocked, it goes to runnable state and not to running
+state
