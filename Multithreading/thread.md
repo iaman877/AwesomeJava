@@ -35,5 +35,6 @@ currently not eligible to run. A running thread may go to a blocked state due to
 of the following conditions.
 * wait() or sleep() method is called
 * The thread perform I/O operation.
+
 When a blocked thread is unblocked, it goes to runnable state and not to running
 state
