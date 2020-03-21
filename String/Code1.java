@@ -1,5 +1,3 @@
-// Java code to illustrate String 
-
 import java.io.*; 
 import java.lang.*; 
 
