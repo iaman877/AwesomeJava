@@ -1,4 +1,4 @@
-// contains() function 
+// contains() function has  return type boolean 
 public class Main {
     public static void main(String args[]) {
         String str1 = "Aman Anshika Happy";
