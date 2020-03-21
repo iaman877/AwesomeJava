@@ -1,3 +1,4 @@
+// equals function is return type boolean
 import java.io.*; 
 import java.lang.*; 
 
