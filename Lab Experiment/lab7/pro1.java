@@ -69,3 +69,58 @@ class Main
      s.disp();
 }
 }
+// another method 
+import java.io.*; 
+class IOT
+{
+      String x;
+      int p;
+      void read()throws  Exception
+       {
+          DataInputStream in= new DataInputStream(System.in);
+          System.out.println("\n  --------- Enter the Student  detail --------- "); 
+          System.out.println("Enter the name : ");
+          x=in.readLine();
+          System.out.println("Enter the your SAPID  : "); 
+          p=Integer.parseInt(in.readLine()); 
+       }
+
+void show()
+{
+     System.out.println("\n  --------- Students detail --------- "); 
+     System.out.println("Name   :"+x);
+     System.out.println("SAPID  :"+p);
+ }
+}
+class Main
+{
+  public static void main(String arg[])
+  {
+     System.out.println("My Name : Aman Bhardwaj && Roll no : 09 ");
+    int no=0;
+    IOT s=new IOT(); 
+    try
+     {
+        DataInputStream in= new DataInputStream(System.in);
+        System.out.println("Enter the number of students : "); 
+        no=Integer.parseInt(in.readLine());
+        if(no>10)
+          {
+             throw new ArrayIndexOutOfBoundsException("You cant enter more then 10 \n");
+          }
+         else
+         {
+              for(int i=0;i<no;i++)
+              {
+                 s.read();
+                 s.show();
+              }
+              
+         }
+     }
+    catch(Exception e)
+    { 
+        System.out.println(e);
+    }
+}
+}
