@@ -1,3 +1,6 @@
+// Write a program for searching strings for the first occurrence of a character or substring and for the last occurrence of a character or substring. 
+
+
 import java.io.*;
 class Aman1
  {
